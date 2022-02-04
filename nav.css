@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    position: sticky;
+    
+}
+.nav_left{
+    
+    flex: 0.6;
+    
+   
+}
+.img{
+    
+   height: 70px;
+
+}
+.search_box{
+    display: block;
+}
+.search_box > input{
+    border:none;
+    outline-width: 0;
+    border-radius: 4px;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+} 
